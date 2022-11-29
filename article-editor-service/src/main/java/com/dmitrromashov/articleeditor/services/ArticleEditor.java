@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
 public class ArticleEditor {
     @SneakyThrows
     public void editArticle(Article article) {
-        Thread.sleep(10000);
+        Thread.sleep(100);
     }
 }
